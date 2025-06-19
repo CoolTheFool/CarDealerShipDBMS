@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7199D2C4-88D8-480B-8CD8-9D2D45CCF180}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7199D2C4-88D8-480B-8CD8-9D2D45CCF180}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199D2C4-88D8-480B-8CD8-9D2D45CCF180}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7199D2C4-88D8-480B-8CD8-9D2D45CCF180}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car.h",
+              "DocumentMoniker": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\Car.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Car.h",
+              "ToolTip": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\Car.h",
+              "RelativeToolTip": "ConsoleApplication1\\Car.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-12T14:21:16.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\main.cpp",
+              "ToolTip": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T14:19:26.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car.cpp",
+              "DocumentMoniker": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\car.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\car.cpp",
+              "ToolTip": "C:\\Users\\NM041\\OneDrive\\Documents\\GitHub\\CarDealerShipDBMS\\ConsoleApplication1\\ConsoleApplication1\\car.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\car.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T21:49:02.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
