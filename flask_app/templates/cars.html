@@ -27,7 +27,54 @@
         </div>
     </div>
 
+    
+    <div class="body">
+        <h1>Car Sales</h1>
+        <table border = "1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Make</th>
+                    <th>Registration</th>
+                    <th>Model</th>  
+                    <th>Year</th>
+                    <th>Price</th>  
+                </tr>
+            </thead>
+            <tbody> 
+                {% for row in cars%}
+                <tr>    
+                    <td>{{ row['ID'] }}</td>
+                    <td>{{ row['MAKE'] }}</td>
+                    <td>{{ row['REGISTRATION'] }}</td>
+                    <td>{{ row['MODEL'] }}</td>
+                    <td>{{ row['YEAR'] }}</td>
+                    <td>{{ row['PRICE'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
 
+        </table>
+        <table border = "1"> 
+            <thead> 
+                <tr> 
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Registration</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in customers %}
+                <tr>
+                    <td>{{ row['NAME'] }}</td>
+                    <td>{{ row['EMAIL'] }}</td>
+                    <td>{{ row['PHONE'] }}</td>
+                    <td>{{ row['REGISTRATION'] }}</td>
+                </tr>
+                {% endfor %}
+        </table>"
+    </div>
 
 
 

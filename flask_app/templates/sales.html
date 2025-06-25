@@ -27,10 +27,26 @@
         </div>
     </div>
 
+<body>
+    <div class="content">  
+        <h2> Visual Insights</h2>
 
-
-
-
+        <div class="graphs">
+            <div class="graph">
+                <h3>Average price by make</h3>
+                <img src="{{ url_for('static', filename='graphs/average_price_by_make.png') }}" alt="Average Price by Make">
+            </div>
+            <div class="graph">
+                <h3>Price by Make</h3>
+                <img src="{{ url_for('static', filename='graphs/price_by_make.png') }}" alt="Price by Make">
+            </div>
+            <div class="graph">
+                <h3>Price vs Year</h3>
+                <img src="{{ url_for('static', filename='graphs/price_vs_year.png') }}" alt="Price vs Year">
+            </div>
+        </div>
+    </div>
+</body>
     <div class="footer">
         <div class="footer-content">
             <p>&copy; 2025 Wolverhampton Wheels. All rights reserved.</p>

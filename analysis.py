@@ -2,7 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import sqlite3 
+import os
 
+
+output_dir = os.path.join("static", "graphs")
+os.makedirs(output_dir, exist_ok=True)
 connection = sqlite3.connect("dealership.db")
 
 cars_df = pd.read_sql_query(
@@ -29,7 +33,9 @@ plt.ylabel('Average Price')
 plt.title('Average Price of Cars by Make')  
 plt.tight_layout()
 plt.xticks(rotation=45)
-plt.show()
+plt.savefig(os.path.join(output_dir, "avg_price_per_make.png"))
+plt.close()
+
 
 sorted_cars  = cars_df.sort_values(by='PRICE', ascending=True)
 plt.figure(figsize=(12, 6))
@@ -40,7 +46,9 @@ plt.title('Price of Cars by Make')
 plt.tight_layout()
 plt.xticks(rotation=90)
 plt.legend()
-plt.show()
+plt.savefig(os.path.join(output_dir, "price_by_make.png"))
+plt.close()
+
 
 
 plt.figure(figsize=(10, 6))
@@ -51,4 +59,8 @@ plt.title('Price vs Year of Cars')
 plt.legend()
 plt.tight_layout()  
 plt.grid(True)
-plt.show()
+plt.savefig(os.path.join(output_dir, "price_vs_year.png"))
+plt.close()
+
+
+print("Graphs generated and saved successfully in the 'static/graphs' directory.")
