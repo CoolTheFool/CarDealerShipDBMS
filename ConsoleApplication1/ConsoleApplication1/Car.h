@@ -8,22 +8,22 @@ using namespace std;
 class Car {
 protected:
 	string make;
-	string registration;
+	string registrationC;
 	string model;
 	int year;
 	double price;
 
 public:
 
-	Car(string make, string registration, string model, int year, double price);
+	Car(string make, string registrationC, string model, int year, double price);
 
 	void setMake(string nmake);
 
 	string getMake()const;
 
-	void setRegistration(string nregistration);
+	void setRegistrationC(string nregistrationC);
 
-	string getRegistration()const;
+	string getRegistrationC()const;
 
 	void setModel(string nmodel);
 

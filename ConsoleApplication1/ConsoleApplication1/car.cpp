@@ -8,14 +8,11 @@
 
 using namespace std;
 
-Car::Car(string make, string registration, string model, int year, double price)
-{
-	make = "";
-	registration = "";
-	model = "";
-	year = 0;
-	price = 0.0;
+Car::Car(string make, string registrationC, string model, int year, double price)
+	: make(make), registrationC(registrationC), model(model), year(year), price(price) {
+
 }
+
 
 void Car::setMake(string nmake) {
 	make = nmake;
@@ -25,12 +22,12 @@ string Car::getMake()const {
 
 }
 
-void Car::setRegistration(string nregistration) {
-	registration = nregistration;
+void Car::setRegistrationC(string nregistrationC) {
+	registrationC = nregistrationC;
 }
 
-string Car::getRegistration()const {
-	return registration;
+string Car::getRegistrationC()const {
+	return registrationC;
 }
 
 void Car::setModel(string nmodel) {
