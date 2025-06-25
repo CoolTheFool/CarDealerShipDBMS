@@ -35,3 +35,26 @@ tr:nth-child(even) {
 tf:hover {
     background-color: #e0f4ff;
 }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#2350ba;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#2350ba;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
